@@ -1,4 +1,6 @@
+import { Link, animateScroll as scroll } from "react-scroll";
 import JumbotronView from "./components/JumbotronView";
+import WhoWeAre from "./components/WhoWeAre";
 
 function App() {
     return (
@@ -6,26 +8,29 @@ function App() {
             <div className="flex items-center justify-center flex-shrink-0 text-fuchsia-700 mr-6 font-semibold text-xl ">
                 Basic Self
             </div>
-            <JumbotronView />
             <div className="flex justify-center items-center">
                 <nav className="flex items-center justify-between flex-wrap bg-white p-6 sticky">
                     <div className="w-full block flex-shrink lg:flex lg:items-center lg:w-auto">
                         <div className="text-m invisible md:visible">
-                            <a
-                                href="#responsive-header"
-                                className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-700 hover:text-gray-400 mr-4"
+                            <Link
+                                to="sec1"
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-600 hover:text-fuchsia-800 mr-4"
                             >
                                 Who we are
-                            </a>
+                            </Link>
+
                             <a
                                 href="#responsive-header"
-                                className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-700 hover:text-gray-400 mr-4"
+                                className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-600 hover:text-fuchsia-800 mr-4"
                             >
                                 What we do
                             </a>
                             <a
                                 href="#responsive-header"
-                                className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-700 hover:text-gray-400"
+                                className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-600 hover:text-fuchsia-800"
                             >
                                 Testimonials
                             </a>
@@ -33,6 +38,8 @@ function App() {
                     </div>
                 </nav>
             </div>
+            <JumbotronView />
+            <WhoWeAre id="sec1" />
         </>
     );
 }
