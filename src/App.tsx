@@ -5,16 +5,16 @@ import WhoWeAre from "./components/WhoWeAre";
 function App() {
     return (
         <div>
-            <div className="h-screen">
+            <div className="lg:h-screen">
                 <div className="flex items-center justify-center flex-shrink-0 text-fuchsia-700 mr-6 font-semibold text-xl pt-10">
                     Basic Self
                 </div>
                 <div className="flex justify-center items-center">
-                    <nav className="flex items-center justify-between flex-wrap bg-white p-6 sticky">
+                    <nav className="sticky flex items-center justify-between flex-wrap bg-white p-4 mt-4">
                         <div className="w-full block flex-shrink lg:flex lg:items-center lg:w-auto">
                             <div className="text-m invisible md:visible">
                                 <Link
-                                    to="sec1"
+                                    to="whoweare"
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
@@ -22,20 +22,31 @@ function App() {
                                 >
                                     Who We Are
                                 </Link>
-
-                                <a className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-600 hover:text-fuchsia-800 mr-4">
+                                <Link
+                                    to="whatweoffer"
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                    className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-600 hover:text-fuchsia-800 mr-4"
+                                >
                                     What We Offer
-                                </a>
-                                <a className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-600 hover:text-fuchsia-800">
+                                </Link>
+                                <Link
+                                    to="testimonials"
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                    className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-600 hover:text-fuchsia-800"
+                                >
                                     Testimonials
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </nav>
                 </div>
                 <JumbotronView />
             </div>
-            <WhoWeAre id="sec1" />
+            <WhoWeAre id="whoweare" />
         </div>
     );
 }
