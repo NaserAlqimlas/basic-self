@@ -1,6 +1,8 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import JumbotronView from "./components/JumbotronView";
+import WhatWeOffer from "./components/WhatWeOffer";
 import WhoWeAre from "./components/WhoWeAre";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -46,7 +48,11 @@ function App() {
                 </div>
                 <JumbotronView />
             </div>
-            <WhoWeAre id="whoweare" />
+            <div className="mx-12">
+                <WhoWeAre id="whoweare" />
+                <WhatWeOffer id="whatweoffer" />
+            </div>
+            <Footer />
         </div>
     );
 }
