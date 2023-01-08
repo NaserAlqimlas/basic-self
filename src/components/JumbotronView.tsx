@@ -32,9 +32,11 @@ const JumbotronView = () => {
                 <p className="text-xl pt-2">
                     In the Basic Self all that is possible.
                 </p>
-                <button className="my-5 justify-center items-center border border-fuchsia-600 rounded-md bg-fuchsia-600 text-white hover:bg-fuchsia-700 hover:border-fuchsia-700 duration-150">
-                    Contact Us
-                </button>
+                <div className="flex justify-end">
+                    <button className="w-36 p-2 my-5 flex justify-center items-center border border-fuchsia-600 rounded-md bg-fuchsia-600 text-white hover:bg-fuchsia-700 hover:border-fuchsia-700 duration-150">
+                        Contact Us
+                    </button>
+                </div>
             </div>
             <div className="pt-10 invisible lg:visible">
                 <img src={image} />
