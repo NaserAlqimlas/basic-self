@@ -3,6 +3,7 @@ import JumbotronView from "./components/JumbotronView";
 import WhatWeOffer from "./components/WhatWeOffer";
 import WhoWeAre from "./components/WhoWeAre";
 import Footer from "./components/Footer";
+import ContactUs from "./components/ContactUs";
 
 function App() {
     return (
@@ -51,6 +52,7 @@ function App() {
             <div className="mx-12">
                 <WhoWeAre id="whoweare" />
                 <WhatWeOffer id="whatweoffer" />
+                <ContactUs id="contactus" />
             </div>
             <Footer />
         </div>
