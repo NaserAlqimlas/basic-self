@@ -7,7 +7,7 @@ interface ContactUsProps {
 const ContactUs = (props: ContactUsProps) => {
     const { id } = props;
     return (
-        <div id={id} className="mb-32 text-gray-800">
+        <div id={id} className="mb-12 text-gray-800">
             <div className="flex justify-center items-center">
                 <div className="text-center lg:max-w-3xl md:max-w-xl">
                     <h2 className="text-3xl font-bold mb-12 px-6">
@@ -22,56 +22,54 @@ const ContactUs = (props: ContactUsProps) => {
                         <div className="form-group mb-6">
                             <input
                                 type="text"
-                                className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-fuchsia-600 focus:outline-none"
                                 placeholder="Name"
                             />
                         </div>
                         <div className="form-group mb-6">
                             <input
                                 type="email"
-                                className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-fuchsia-600 focus:outline-none"
                                 placeholder="Email address"
                             />
                         </div>
                         <div className="form-group mb-6">
                             <textarea
-                                className=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                className=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-fuchsia-600 focus:outline-none"
                                 rows={3}
                                 placeholder="Message"
                             />
                         </div>
                         <button
                             type="submit"
-                            className=" w-full px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                            className=" w-full px-6 py-2.5 bg-fuchsia-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-fuchsia-700 hover:shadow-lg focus:bg-fuchsia-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-fuchsia-800 active:shadow-lg transition duration-150 ease-in-out"
                         >
                             Send
                         </button>
                     </form>
                 </div>
-                <div className="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+                <div className="grow-0 shrink-0 basis-auto">
                     <div className="flex flex-col flex-wrap">
                         <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                             <div className="flex align-start">
                                 <div className="shrink-0">
-                                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                        <svg
-                                            aria-hidden="true"
-                                            focusable="false"
-                                            data-prefix="fas"
-                                            data-icon="bug"
-                                            className="w-5 text-white"
-                                            role="img"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 512 512"
-                                        >
-                                            <path
-                                                fill="currentColor"
-                                                d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z"
-                                            ></path>
-                                        </svg>
-                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 48 48"
+                                        width="64px"
+                                        height="64px"
+                                    >
+                                        <path
+                                            fill="#1e88e5"
+                                            d="M34,42H14c-4.411,0-8-3.589-8-8V14c0-4.411,3.589-8,8-8h20c4.411,0,8,3.589,8,8v20 C42,38.411,38.411,42,34,42z"
+                                        />
+                                        <path
+                                            fill="#fff"
+                                            d="M35.926,17.488L29.414,24l6.511,6.511C35.969,30.347,36,30.178,36,30V18 C36,17.822,35.969,17.653,35.926,17.488z M26.688,23.899l7.824-7.825C34.347,16.031,34.178,16,34,16H14 c-0.178,0-0.347,0.031-0.512,0.074l7.824,7.825C22.795,25.38,25.205,25.38,26.688,23.899z M24,27.009 c-1.44,0-2.873-0.542-3.99-1.605l-6.522,6.522C13.653,31.969,13.822,32,14,32h20c0.178,0,0.347-0.031,0.512-0.074l-6.522-6.522 C26.873,26.467,25.44,27.009,24,27.009z M12.074,17.488C12.031,17.653,12,17.822,12,18v12c0,0.178,0.031,0.347,0.074,0.512 L18.586,24L12.074,17.488z"
+                                        />
+                                    </svg>
                                 </div>
-                                <div className="grow ml-6">
+                                <div className="grow ml-2">
                                     <p className="font-bold mb-1">
                                         Abeer A. AlMefleh
                                     </p>
@@ -86,27 +84,93 @@ const ContactUs = (props: ContactUsProps) => {
                             </div>
                         </div>
                         <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
-                            <div className="flex items-start">
+                            <div className="flex items-center">
                                 <div className="shrink-0">
-                                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                        <svg
-                                            aria-hidden="true"
-                                            focusable="false"
-                                            data-prefix="fas"
-                                            data-icon="dollar-sign"
-                                            className="w-3 text-white"
-                                            role="img"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 288 512"
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 48 48"
+                                        width="64px"
+                                        height="64px"
+                                    >
+                                        <radialGradient
+                                            id="yOrnnhliCrdS2gy~4tD8ma"
+                                            cx="19.38"
+                                            cy="42.035"
+                                            r="44.899"
+                                            gradientUnits="userSpaceOnUse"
                                         >
-                                            <path
-                                                fill="currentColor"
-                                                d="M209.2 233.4l-108-31.6C88.7 198.2 80 186.5 80 173.5c0-16.3 13.2-29.5 29.5-29.5h66.3c12.2 0 24.2 3.7 34.2 10.5 6.1 4.1 14.3 3.1 19.5-2l34.8-34c7.1-6.9 6.1-18.4-1.8-24.5C238 74.8 207.4 64.1 176 64V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C45.8 64-5.4 118.7.5 183.6c4.2 46.1 39.4 83.6 83.8 96.6l102.5 30c12.5 3.7 21.2 15.3 21.2 28.3 0 16.3-13.2 29.5-29.5 29.5h-66.3C100 368 88 364.3 78 357.5c-6.1-4.1-14.3-3.1-19.5 2l-34.8 34c-7.1 6.9-6.1 18.4 1.8 24.5 24.5 19.2 55.1 29.9 86.5 30v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48.2c46.6-.9 90.3-28.6 105.7-72.7 21.5-61.6-14.6-124.8-72.5-141.7z"
-                                            ></path>
-                                        </svg>
-                                    </div>
+                                            <stop
+                                                offset="0"
+                                                stop-color="#fd5"
+                                            />
+                                            <stop
+                                                offset=".328"
+                                                stop-color="#ff543f"
+                                            />
+                                            <stop
+                                                offset=".348"
+                                                stop-color="#fc5245"
+                                            />
+                                            <stop
+                                                offset=".504"
+                                                stop-color="#e64771"
+                                            />
+                                            <stop
+                                                offset=".643"
+                                                stop-color="#d53e91"
+                                            />
+                                            <stop
+                                                offset=".761"
+                                                stop-color="#cc39a4"
+                                            />
+                                            <stop
+                                                offset=".841"
+                                                stop-color="#c837ab"
+                                            />
+                                        </radialGradient>
+                                        <path
+                                            fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
+                                            d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+                                        />
+                                        <radialGradient
+                                            id="yOrnnhliCrdS2gy~4tD8mb"
+                                            cx="11.786"
+                                            cy="5.54"
+                                            r="29.813"
+                                            gradientTransform="matrix(1 0 0 .6663 0 1.849)"
+                                            gradientUnits="userSpaceOnUse"
+                                        >
+                                            <stop
+                                                offset="0"
+                                                stop-color="#4168c9"
+                                            />
+                                            <stop
+                                                offset=".999"
+                                                stop-color="#4168c9"
+                                                stop-opacity="0"
+                                            />
+                                        </radialGradient>
+                                        <path
+                                            fill="url(#yOrnnhliCrdS2gy~4tD8mb)"
+                                            d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+                                        />
+                                        <path
+                                            fill="#fff"
+                                            d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"
+                                        />
+                                        <circle
+                                            cx="31.5"
+                                            cy="16.5"
+                                            r="1.5"
+                                            fill="#fff"
+                                        />
+                                        <path
+                                            fill="#fff"
+                                            d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"
+                                        />
+                                    </svg>
                                 </div>
-                                <div className="grow ml-6">
+                                <div className="grow ml-2">
                                     <p className="font-bold mb-1">
                                         basicselfbh
                                     </p>
