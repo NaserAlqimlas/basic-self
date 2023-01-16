@@ -50,7 +50,12 @@ const ContactUs = (props: ContactUsProps) => {
                 </div>
                 <div className="grow-0 shrink-0 basis-auto">
                     <div className="flex flex-col flex-wrap">
-                        <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+                        <a
+                            className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6"
+                            href="mailto:info@basicself.com"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <div className="flex align-start">
                                 <div className="shrink-0">
                                     <svg
@@ -82,8 +87,13 @@ const ContactUs = (props: ContactUsProps) => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+                        </a>
+                        <a
+                            className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6"
+                            href="https://www.instagram.com/basicselfbh/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <div className="flex items-center">
                                 <div className="shrink-0">
                                     <svg
@@ -176,7 +186,7 @@ const ContactUs = (props: ContactUsProps) => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
