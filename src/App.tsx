@@ -51,7 +51,9 @@ function App() {
             </div>
             <div className="mx-12">
                 <WhoWeAre id="whoweare" />
-                <WhatWeOffer id="whatweoffer" />
+            </div>
+            <WhatWeOffer id="whatweoffer" />
+            <div className="mx-12 my-12">
                 <ContactUs id="contactus" />
             </div>
             <Footer />
