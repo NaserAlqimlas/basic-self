@@ -49,7 +49,7 @@ function App() {
                 </div>
                 <JumbotronView />
             </div>
-            <div className="mx-12">
+            <div>
                 <WhoWeAre id="whoweare" />
             </div>
             <WhatWeOffer id="whatweoffer" />

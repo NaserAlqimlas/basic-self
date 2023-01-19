@@ -8,7 +8,10 @@ const WhoWeAre = (props: WhoWeAreProps) => {
     const { id } = props;
 
     return (
-        <div className="p-24 lg:h-screen" id={id}>
+        <div
+            className="flex flex-col items-center justify-center mx-12 lg:h-screen"
+            id={id}
+        >
             <h1 className="text-4xl mb-10">
                 Since as early as I can remember I was fascinated with the human
                 psyche and it's wonders.
