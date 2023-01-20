@@ -46,7 +46,7 @@ const JumbotronView = () => {
                 </div>
             </div>
             <div className="pt-10 invisible lg:visible">
-                <img src={image} />
+                <img src={image} alt="pic" />
             </div>
         </div>
     );
