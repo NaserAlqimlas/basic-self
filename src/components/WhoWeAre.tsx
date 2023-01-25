@@ -9,7 +9,7 @@ const WhoWeAre = (props: WhoWeAreProps) => {
 
     return (
         <div
-            className="flex flex-col items-center justify-center mx-12 lg:h-screen"
+            className="flex flex-col items-center justify-center mx-12 my-12 "
             id={id}
         >
             <h1 className="text-4xl mb-10">
