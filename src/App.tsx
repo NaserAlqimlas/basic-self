@@ -12,9 +12,9 @@ function App() {
                 Basic Self
             </div>
             <div className="sticky top-0 z-50 flex justify-center items-center">
-                <nav className="flex items-center justify-between flex-wrap bg-white p-4 mt-4 border rounded-md border-white">
+                <nav className="flex items-center justify-between flex-wrap bg-white p-4 mt-4 border-2 rounded-md border-fuchsia-600 invisible md:visible mb-5">
                     <div className="w-full block flex-shrink lg:flex lg:items-center lg:w-auto">
-                        <div className="text-m invisible md:visible">
+                        <div className="text-m">
                             <Link
                                 to="whoweare"
                                 smooth={true}
