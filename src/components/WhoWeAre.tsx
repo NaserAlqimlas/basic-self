@@ -12,7 +12,7 @@ const WhoWeAre = (props: WhoWeAreProps) => {
             className="flex flex-col items-center justify-center mx-12 my-12 "
             id={id}
         >
-            <h1 className="text-4xl mb-10">
+            <h1 className="text-4xl mb-10 ">
                 Since as early as I can remember I was fascinated with the human
                 psyche and it's wonders.
             </h1>

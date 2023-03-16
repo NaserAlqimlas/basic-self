@@ -4,6 +4,7 @@ import WhatWeOffer from "./components/WhatWeOffer";
 import WhoWeAre from "./components/WhoWeAre";
 import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
+import Testimonials from "./components/Testimonials";
 
 function App() {
     return (
@@ -34,6 +35,15 @@ function App() {
                                 What We Offer
                             </Link>
                             <Link
+                                to="testimonials"
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-600 hover:font-bold duration-150 mr-4"
+                            >
+                                Testimonials
+                            </Link>
+                            <Link
                                 to="contactus"
                                 smooth={true}
                                 offset={-70}
@@ -52,6 +62,7 @@ function App() {
                     <WhoWeAre id="whoweare" />
                 </div>
                 <WhatWeOffer id="whatweoffer" />
+                <Testimonials id="testimonials" />
                 <div className="mx-12 my-12">
                     <ContactUs id="contactus" />
                 </div>
