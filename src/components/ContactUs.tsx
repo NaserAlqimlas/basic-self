@@ -1,5 +1,3 @@
-import React from "react";
-
 interface ContactUsProps {
     id: string;
 }
@@ -43,7 +41,7 @@ const ContactUs = (props: ContactUsProps) => {
                             <button
                                 type="submit"
                                 value="Send"
-                                className=" w-full px-6 py-2.5 bg-fuchsia-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-fuchsia-700 hover:shadow-lg focus:bg-fuchsia-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-fuchsia-800 active:shadow-lg transition duration-150 ease-in-out"
+                                className="w-full px-6 py-2.5 bg-fuchsia-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-fuchsia-700 hover:shadow-lg focus:bg-fuchsia-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-fuchsia-800 active:shadow-lg transition ease-in-out hover:font-bold duration-150"
                             >
                                 Send
                             </button>
