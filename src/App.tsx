@@ -9,7 +9,7 @@ import Testimonials from "./components/Testimonials";
 function App() {
     return (
         <div>
-            <div className="flex items-center justify-center flex-shrink-0 text-fuchsia-700 mr-6 font-semibold text-xl pt-10">
+            <div className="flex items-center justify-center flex-shrink-0 text-fuchsia-700 font-semibold text-xl pt-10">
                 Basic Self
             </div>
             <div className="sticky top-0 z-50 flex justify-center items-center">
