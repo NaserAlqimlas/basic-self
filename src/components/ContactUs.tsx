@@ -13,7 +13,11 @@ const ContactUs = (props: ContactUsProps) => {
                     </h2>
                 </div>
             </div>
-            <form action="mailto:nsq2169@gmail.com">
+            <form
+                action="mailto:nsq2169@gmail.com"
+                method="post"
+                encType="text/plain"
+            >
                 <div className="flex justify-center items-center flex-wrap">
                     <div className="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
                         <form>

@@ -57,22 +57,6 @@ const Testimonials = (props: testimonialsProps) => {
                 </div>
                 <div className="m-10">
                     <p>
-                        Abeer helped me with overcoming a few problems which
-                        were becoming obstacles to both my health and
-                        professional growth. The most notable thing about her
-                        therapy is that it manages to be both gentle and self
-                        empowering: it was after a few weeks that I noticed,
-                        ‘Oh, that problem has gone!” She facilitates an
-                        atmosphere of self-healing and self growth, which I
-                        respect greatly.
-                    </p>
-                    <br />
-                    <p className="text-fuchsia-700">
-                        N.T. - Consultant, Bahrain
-                    </p>
-                </div>
-                <div className="m-10">
-                    <p>
                         I want to thank you for helping me to be a better and a
                         happier person. 2016 was an amazing year and not because
                         certain events that happened but because i was stronger
@@ -93,6 +77,22 @@ const Testimonials = (props: testimonialsProps) => {
                     </p>
                     <br />
                     <p className="text-fuchsia-700"> Lama - artist</p>
+                </div>
+                <div className="m-10">
+                    <p>
+                        Abeer helped me with overcoming a few problems which
+                        were becoming obstacles to both my health and
+                        professional growth. The most notable thing about her
+                        therapy is that it manages to be both gentle and self
+                        empowering: it was after a few weeks that I noticed,
+                        ‘Oh, that problem has gone!” She facilitates an
+                        atmosphere of self-healing and self growth, which I
+                        respect greatly.
+                    </p>
+                    <br />
+                    <p className="text-fuchsia-700">
+                        N.T. - Consultant, Bahrain
+                    </p>
                 </div>
             </div>
         </div>
